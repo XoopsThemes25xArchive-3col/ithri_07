@@ -1,0 +1,343 @@
+/* --------- Hypertext links --------- */
+a {  
+	background-color: transparent;
+	color: #0560A6;
+	text-decoration: none;
+}
+a:hover {}
+a:active {color: #FF0000;}
+
+/* --------- Titles --------- */
+h1 {
+	font-size: 1.4em;
+	font-weight: bold;
+	
+}
+h2 {font-size: 1.2em;}
+h3 {
+	padding-bottom: 3px;
+	font-size: 1em;
+	
+}
+h4 {font-size: 1em;}
+h5 {font-size: .9em;}
+h6 {font-size: .8em;}
+
+/* --------- Images --------- */
+img {
+	position: relative;
+	border: 0;  
+}
+
+
+
+
+/* --------- Others --------- */
+acronym, abbr, dfn {
+	border-bottom: 1px dotted #333;
+	cursor: help;
+}
+q, cite, em, dfn, strong {font-style : italic;}
+strong, dfn {font-weight: bold;}
+del {text-decoration: line-through;}
+address {
+	font-style: normal;
+	letter-spacing: .1em;
+}
+hr {display: none;}
+
+/* --------- Tables and cells --------- */
+table {
+	width: 100%;
+	text-align:left;
+}
+table td {
+	padding: 0;
+	vertical-align: top;
+	border-width: 0;  
+}
+th {
+	padding: 4px;
+	vertical-align: middle;
+	background-color:#CDE0FD;
+	color:#0E4380;
+	
+	
+}
+.outer {
+	padding: 2px;
+	
+}
+.head {
+	background-color: #f3f3f3;
+	padding: 5px;
+	font-weight: bold;
+}
+.even {
+	background-color: #fff;
+	padding: 5px;
+}
+.odd {
+	background-color: #fff;
+	padding: 5px;
+}
+.foot {
+	background-color: #f3f3f3;
+	padding: 5px;
+	font-weight: bold;
+}
+tr.even td {
+	background-color: #fff;
+	padding: 5px;
+}
+tr.odd td {
+	background-color: #fff;
+	padding: 5px;
+}
+
+/* --------- Core messages --------- */
+.errorMsg {
+	background-color: #FFCCCC;
+	padding: 10px;
+	text-align: center;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	font-weight: bold;  
+}
+.confirmMsg {
+	background-color: #DDFFDF;
+	padding: 10px;
+	color: #136C99;  
+	text-align: center;
+	font-weight: bold; 
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;   
+}
+.resultMsg {
+	background-color: #c1c1c1;
+	padding: 10px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;  
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;  
+}
+
+/* --------- Codes and Quotes --------- */
+.xoopsCode {
+	max-height: 200px;
+	margin: 6px;
+	background-color: #fafafa;
+	padding: 6px; 
+	overflow: auto;
+	color: #666;
+	font-family:  "Lucida Console", "courier new", monospace;
+	font-size: .9em; 
+	
+}
+.xoopsQuote {
+	margin: 6px;
+	background: #fafafa url("../img/quote.gif") no-repeat 5px 10px;  
+	padding: 6px 6px 6px 40px;  
+	font-style: normal;
+	border: 1px solid #e1e1e1;
+	border-left: 3px solid #639ACC; 
+}
+
+/* --------- Articles --------- */
+.item {
+	margin-bottom: 20px;
+	
+	
+}
+.itemHead {
+	
+	height: 20px;
+	padding-bottom:0px;
+	
+	
+}
+.itemInfo { 
+	background-color: #F7F7F7;
+	padding: 3px;
+	text-align:left; 
+}
+.itemTitle {
+	 
+	background: 					url("../img/02.png") no-repeat; 
+	padding-left:10px;
+}
+.itemTitle a {
+	padding-left:10px;
+	color: #458B00;
+	text-decoration: none;
+	font-size:1.1em;
+	font-weight: bold;
+	
+}
+
+.itemTitle  :hover { color: #A2CD5A;}
+
+	
+	
+.itemPoster {
+  font-size: .9em;
+  font-style:italic;
+}
+.itemPostDate {
+  font-size: .9em;
+  font-style:italic;
+}
+.itemStats {
+  font-size: .9em;
+  font-style:italic;
+}
+.itemBody {padding-left: 5px;}
+.itemText {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1.5em;
+}
+.itemText:first-letter {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.itemFoot {
+  text-align: right;
+  padding: 3px;
+  background-color: #f9f9f9;
+}
+.itemAdminLink {font-size: .9em;}
+.itemPermaLink {font-size: .9em;}
+
+/* forums */
+.comTitle {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.comText {padding: 2px;}
+.comUserStat {
+  font-size: 10px;
+  font-weight:bold;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin: 2px; padding: 2px;
+}
+.comUserStatCaption  {
+font-weight: normal;
+font-size: 11px;
+}
+.comUserStatus {
+  margin-left: 2px;
+  margin-top: 10px;
+  color: #639ACC;
+  font-weight:bold;
+  font-size: .9em;
+}
+.comUserRank {margin: 2px;}
+.comUserRankText  {
+  font-size: .9em;
+  font-weight:bold;
+  text-align: center;
+}
+.comUserRankImg  {
+border: 0;
+}
+.comUserName {}
+.comUserImg {margin: 3px;}
+.comDate {
+  font-weight: normal;
+  font-style: italic;
+  font-size: .8em
+}  
+.comDateCaption {
+  font-weight: bold;
+  font-style: normal;
+  font-size: .8em
+}
+.signature {
+  font-size: 12px;
+  font-style:italic;
+}
+
+
+.news_title {
+	 padding: 3px;
+	 color: #000000;
+	 font-weight:bold;
+	 font-size: 18px;
+	 border-bottom: 1px dashed #000000;
+}
+.news_posted_by {
+	 padding: 3px;
+	 text-align:right;
+	 color: #000000;
+	 font-weight:bold;
+	 font-size: 12px;
+}
+
+
+/* --------- Forms --------- */
+button, input[type="submit"] { 
+  
+ padding : 3px;  color : #333;  font-size : 9px;  
+ font-weight : bold;  border : none;}
+ 
+
+
+
+input[type=text], input[type=password], input[type=checkbox], input[type=file], textarea {
+        border: 1px solid #ddd;
+        margin: 2px 5px 2px 0;
+        padding-left: .2em;
+        color: inherit;
+        color: #333;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=checkbox]:hover, input[type=file]:focus {
+        background-color: #f1f2f3;
+        border-color: #44bbee;
+        
+}
+
+/*-----------------Styles for pagenav ------------*/
+#xo-pagenav {
+    margin:                 7px 0;
+    text-align:             center;
+    font-size:              1em;
+}
+#xo-pagenav a {
+    text-decoration:        none;
+}
+#xo-pagenav a:hover {
+    color:                  #1251c6;
+     background:			#eceff2 ;
+    border:                 1px solid #fff;
+}
+.xo-pagact {
+    margin:                 0;
+    padding:                .2em .5em;
+    color:                  #1251c6;
+    background:				#eceff2 ;
+    border:                 1px solid #fff;
+}
+.xo-counterpage, .xo-pagarrow {
+    margin:                 0;
+    padding:                .2em .5em;
+    color:                  #000;
+    background-color:       #fff;
+    border:                 1px solid #DDDDFF;
+}
+.xo-counterpage:hover {}
+.xo-pagarrow {
+    letter-spacing:         0.2em;
+}
+
+
+

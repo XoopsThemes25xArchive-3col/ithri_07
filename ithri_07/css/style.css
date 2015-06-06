@@ -1,0 +1,250 @@
+
+@import url("content.css");
+@import url("blocks.css");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	line-height: normal;
+	background: #B9D3EE ;
+	margin: 0;
+	padding: 0;	
+		
+}
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	unicode-bidi: embed;
+	width: 920px;
+	margin: 0 auto;
+	background: #B9D3EE url("../img/content.png") repeat-y top;
+
+	
+}
+
+
+
+	
+}
+#xo-page {
+	padding-left: 10px; padding-right: 10px;  background: transparent;
+}
+
+#xo-content {
+  padding : 8px;
+  text-align : justify;
+  color:#333333;
+     
+}
+
+#xo-header {
+	background: url("../img/header.png") no-repeat;
+	height: 124px;
+	
+}
+
+
+
+#xo-header img.logo {
+	float:	left; 
+	padding: 9px 33px 0 0;
+	padding-left:20px;
+	padding-top:33px;
+} 
+
+
+
+/* ^^^^^^^^ BELOW IS THE CODE FOR THE MENU ^^^^^^^^^^ */
+#styletwo{width:903px;padding-left:100px ; margin-left:8px;position:relative;display:block;height:30px;font-size:13px;font-weight:bold;background:transparent url("../img/bgOFF.png") no-repeat top left;font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#styletwo ul{margin:0;padding:0;list-style-type:none;width:auto;}
+#styletwo ul li{display:block;float:left;margin:0 0px 1px 0;}
+#styletwo ul li a{display:block;float:left;color:#000;text-decoration:none;padding:6px 20px 0 20px;height:27px;}
+#styletwo ul li a:hover,#styletwo ul li a.current{color:#0560A6;background:transparent url("../img/hove.png") no-repeat top left;}
+/* ^^^^^^^^ ABOVE IS THE CODE FOR THE MENU ^^^^^^^^^^ */
+
+
+#xo-top-shadow {
+	
+	height: 1px;
+	
+}
+
+	
+
+
+.xo-userbar form {
+	display:							inline;
+	padding:							0px;
+}
+.xo-userbar button {
+	margin: 							0px -3px;
+	border:							0px none;
+	padding:							0px;
+	background:						transparent none;
+}
+.xo-userbar button img {
+	width: 							24px;
+	height: 						24px;
+}
+.xo-userbar img {
+	width: 							24px;
+	height: 						24px;
+}
+.xo-userbar input {
+	color: 							black;
+	font-size: 						1.2em;
+	background-color: 			inherit;
+}
+
+.xo-userbar a {
+	color: 							#FF4500;
+	
+	text-decoration: 				none;
+	background-color: 			inherit;
+	
+	font-weight:					bold;
+}
+.xo-uname {
+	color: 							#87af7b;
+	font-size:						1.6em;
+	font-weight:					bold;
+	background: 					inherit;
+}
+
+
+.xo-userbar{
+	height: 32px;
+	text-align: left;
+	float: right;
+	padding: 15px 0 0 20px;
+	padding-right:60px;
+	padding-top:60px;
+}
+
+
+
+
+#xo-content {
+text-align : justify;
+padding: 0px 20px;
+}
+
+
+#xo-footer {  
+	
+	background-color: transparent;
+	background: url("../img/footer.png") no-repeat center bottom;
+	width: 920px;
+	height:90px;
+	
+}
+
+
+.xo-foottext{
+	font-size: 1.1em;
+	color: #808080;
+	padding: 0px 20px;
+	vertical-align: middle;
+	text-align: center;	
+	
+	padding-top:40px;
+}
+.xo-foottext a{
+	color: #2771BA;
+	text-decoration: none;
+}
+.xo-foottext a:hover{
+	color: #2771BA;
+	text-decoration: underline;
+}
+
+
+#mainmenu {
+	padding-bottom:10px;
+	padding-left: 0px;
+	
+}
+#mainmenu a {
+  display: block;
+  margin: 0;
+  padding: 5px;
+  padding-left:6px;  
+  font-weight:					bold;
+  /*background: url("../img/folder.gif") no-repeat left;*/
+	
+	
+}
+#mainmenu a:hover { text-decoration: underline;}
+#mainmenu a.menuTop {padding-left:20px;
+ }
+ 
+#mainmenu a.menuMain {
+padding-left: 20px;
+font-size: .9em;
+font-weight:					bold;
+
+
+}
+#mainmenu a.menuSub {
+  padding-left: 20px; color:#575757 ;
+  font-size: .8em;
+}
+#mainmenu a.menuSub:hover {}
+
+
+#usermenu {
+font-size: .9em; 
+padding-left: 15px;
+
+padding-bottom:20px;
+}
+#usermenu a {
+  display: block;
+  margin: 0; 
+  padding: 4px;
+}
+#usermenu a:hover {}
+#usermenu a.menuTop {}
+#usermenu a.highlight {background-color: #fcc;}
+
+.rss { float: right; padding-bottom:10px;}
+.rss a:hover {	text-decoration: none;}
+
+
+
+/* --- system_redirect ---*/
+#xo-redirect {
+	margin: 10px 80px 10px 80px;
+	background-color: #fafafa;
+	padding: 8px;
+	line-height: 1.4em;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+/* --- system_siteclosed --- */
+#xo-siteclosed {
+	margin: 10px 200px 10px 200px;
+	background-color: #fafafa;
+	padding: 8px;
+	line-height: 1.6em;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+#xo-siteclosed strong {
+	display: block;
+	font-style: normal;
+}
+#xo-siteclosed label {
+	font-size: .9em;
+	font-weight: normal;
+}
+#xo-siteclosed input {margin: 2px;}
+
+
+
+
+

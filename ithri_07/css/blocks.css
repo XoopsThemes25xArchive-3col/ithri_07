@@ -1,0 +1,110 @@
+/* --------- Left columns --------- */
+#xo-canvas-leftcolumn { 
+	background-color:transparent ;
+	width : 170px;
+	margin: 0;
+	font-size: 12px;
+	line-height: normal;
+	background-image:  ;
+	padding-top:10px;
+    	
+}
+
+#xo-canvas-leftcolumn h3.xo-blocktitle { 
+    background:					url("../img/left.png") no-repeat;
+    font-size: 13px;
+    margin-left:  13px ;
+	padding: 6px;  
+	text-align: center;
+	font-weight: bold;  
+	
+	 
+    
+}
+#xo-canvas-leftcolumn .xo-blockcontent { 
+	padding: 3px;
+	padding: 0 12px 8px 0;
+	padding-left: 8px;
+}
+
+
+
+/* --------- Right columns --------- */
+#xo-canvas-rightcolumn {
+	padding: 10px;
+	width : 180px;
+	padding-top:10px;
+	padding-left: 1px;
+	border-left: 1px solid #CCCCCC;
+	
+	
+}
+#xo-canvas-rightcolumn h3.xo-blocktitle {
+	color: #FF7F00; 
+	margin-top: 0;
+	padding-bottom: 10px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	background:					url("../img/right.png") no-repeat;
+	padding:6px;
+}
+#xo-canvas-rightcolumn .xo-blockcontent { 
+	color: #666666;
+	padding-left: 8px;
+	background : url("../img/06.jpg") no-repeat bottom;
+	padding-bottom: 15px;
+	
+	
+}
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {
+    margin: 15px;
+	
+ 
+
+ 
+ 
+}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-left: 20px;
+  color :#8B1A1A;
+  font-weight: bold;
+  background: 				url("../img/h2.png") no-repeat;
+  font-size: 13px;
+  
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  
+  margin-bottom: 10px;
+  line-height: 1.3em;
+  text-align: justify;
+  
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;  }
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-left: 10px;
+  color: #104E8B;
+  font-weight: bold;
+  background: 			url("../img/h2.png") no-repeat;
+  padding-left: 20px;
+   font-size: 13px;
+  color :#009ACD;
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  margin-bottom: 2px;
+  
+  line-height: 1.3em;
+  text-align: justify;  
+}
+
+#xo-topleftblocks{  }
+ #xo-bottomrightblocks {}
+
+
